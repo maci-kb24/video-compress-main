@@ -66,7 +66,7 @@ export default Hero;
 const features = [
   {
     icon: <Users className="w-4 h-4" />,
-    count: "24",
+    count: "23",
     description: "Users",
     title: "Trusted By",
   },

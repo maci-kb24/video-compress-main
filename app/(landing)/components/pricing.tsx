@@ -31,16 +31,11 @@ const Pricing = () => (
             <div>/month</div>
           </div>
           <Link
-            href="/video"
+            href="https://buy.stripe.com/7sI7vz5TralBbTy7sv"
             className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-zinc-700 via-zinc-950 to-zinc-950 rounded-lg text-white/90 px-3.5 py-2.5 relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-500 focus:ring-zinc-950 w-full flex text-center justify-center"
           >
             Get Started
           </Link>
-          <p className="pt-4 text-xs">
-            All of our code base is free and
-            <br />
-            open source.
-          </p>
         </div>
       </div>
       <div className="flex flex-row md:flex-col border justify-between rounded-xl p-3 items-center">
@@ -63,22 +58,17 @@ const Pricing = () => (
           </div>
         </div>
         <div className="bg-white/40  shadow-sm border text-center border-gray-200 rounded-2x p-10 rounded-2xl w-full">
-          <p className="font-semibold text-lg">Free,Forever</p>
+          <p className="font-semibold text-lg">Standard</p>
           <div className="flex items-end justify-center pt-4 pb-8">
             <span className="text-4xl font-semibold">$5</span>
             <div>/month</div>
           </div>
           <Link
-            href="/video"
+            href="https://buy.stripe.com/4gw6rv1Db3Xd8HmbIM"
             className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-zinc-700 via-zinc-950 to-zinc-950 rounded-lg text-white/90 px-3.5 py-2.5 relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-500 focus:ring-zinc-950 w-full flex text-center justify-center"
           >
             Get Started
           </Link>
-          <p className="pt-4 text-xs">
-            All of our code base is free and
-            <br />
-            open source.
-          </p>
         </div>
       </div>
       <div className="flex flex-row md:flex-col border justify-between rounded-xl p-3 items-center">
@@ -101,22 +91,17 @@ const Pricing = () => (
           </div>
         </div>
         <div className="bg-white/40  shadow-sm border text-center border-gray-200 rounded-2x p-10 rounded-2xl w-full">
-          <p className="font-semibold text-lg">Free,Forever</p>
+          <p className="font-semibold text-lg">Professional</p>
           <div className="flex items-end justify-center pt-4 pb-8">
             <span className="text-4xl font-semibold">$9</span>
             <div>/month</div>
           </div>
           <Link
-            href="/video"
+            href="https://buy.stripe.com/4gwdTX0z7alB8HmcMS"
             className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-zinc-700 via-zinc-950 to-zinc-950 rounded-lg text-white/90 px-3.5 py-2.5 relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-500 focus:ring-zinc-950 w-full flex text-center justify-center"
           >
             Get Started
           </Link>
-          <p className="pt-4 text-xs">
-            All of our code base is free and
-            <br />
-            open source.
-          </p>
         </div>
       </div>
     </div> 
