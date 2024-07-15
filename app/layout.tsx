@@ -82,16 +82,16 @@ export default function RootLayout({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#616161" />
         <meta name="msapplication-TileColor" content="#616161" />
         <meta name="theme-color" content="#616161" />
-        <script
+        {/* <script
           defer
           data-domain="videocompress.prolab.sh"
           src="https://plausible.pranavp.xyz/js/script.js"
-        ></script>
-        <script
+        ></script> */}
+        {/* <script
           defer
           data-domain="videocompress.prolab.sh"
           src="https://plausible.pranavp.xyz/js/script.tagged-events.js"
-        ></script>
+        ></script> */}
         <Script src="/chatwoot.js" />
       </head>
       <body

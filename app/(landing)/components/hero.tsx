@@ -14,14 +14,7 @@ const Hero = () => (
   <div className="pt-10 md:pt-20 px-6 lg:px-0">
     <div className="flex items-center gap-x-1.5 text-2 text-gray-600 border borer-gray-200 rounded-full px-3 py-1.5 mx-auto w-fit mb-8">
       <p className="text-sm sm:text-base">
-        🎉 Free and open source on{" "}
-        <a
-          className="text-black font-medium"
-          href="https://github.com/pranavp10/videocompress"
-          target="_blank"
-        >
-          github -&gt;
-        </a>
+        🎉 300+ videos compressed
       </p>
     </div>
     <h1 className="text-center text-4xl font-bold md:text-5xl lg:text-7xl lg lg:font-semibold text-gray-900 text-balance">
@@ -40,13 +33,6 @@ const Hero = () => (
       >
         Compress Now
       </Link>
-      <a
-        href="https://github.com/pranavp10/video-compress"
-        target="_blank"
-        className="border rounded-lg  px-3.5 py-2.5 relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 transition ease-in-out duration-500 focus:ring-zinc-950 flex-shrink-0 flex items-center gap-2"
-      >
-        <GitHubLogoIcon /> Github
-      </a>
     </div>
     <div className="my-10 p-10 rounded-3xl mx-10">
       <div
@@ -80,20 +66,20 @@ export default Hero;
 const features = [
   {
     icon: <Users className="w-4 h-4" />,
-    count: "2,456",
+    count: "24",
     description: "Users",
     title: "Trusted By",
   },
   {
     icon: <Clapperboard className="w-4 h-4" />,
-    count: "53,532",
+    count: "332",
     description: "Files",
     title: "Compressed",
   },
   {
     icon: <FlipVertical2 className="w-4 h-4" />,
-    count: "6,895",
-    description: "GB",
+    count: "895",
+    description: "MB",
     title: "Reduction",
   },
 ];

@@ -5,7 +5,7 @@ const VideoDemo = () => (
     <Image
       width={400}
       height={700}
-      src="/demo.gif"
+      src="/video-demo.gif"
       className="h-full rounded-3xl w-full object-cover border-8 overflow-clip"
       alt="demo of video quality"
     />

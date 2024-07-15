@@ -7,7 +7,7 @@ const TrustedBy = () => {
       <p className="text-center font-semibold text-2xl md:text-3xl">
         Trusted by people working at
       </p>
-      <Marquee autoFill className="h-28 overflow-hidden">
+      <Marquee speed={50} autoFill className="h-28 overflow-hidden">
         <div className="px-4">
           <svg
             className="w-52 text-gray-400"

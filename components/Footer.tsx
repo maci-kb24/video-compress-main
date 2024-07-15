@@ -47,7 +47,7 @@ const Footer = () => (
         <p className="font-semibold">Compress</p>
       </Link>
       <p className="text-gray-500 pt-4 text-sm">
-        No © 2024 Compress Videos for Free. Forever
+        No © 2024 Compress
       </p>
     </div>
     <div className="justify-center font-medium text-gray-600 text-sm divide-x-2 flex pt-10">
@@ -57,19 +57,16 @@ const Footer = () => (
       <Link href="/video" className="px-3">
         Video Compression
       </Link>
-      <Link href="/analytics" className="pl-3">
-        Analytics
-      </Link>
     </div>
   </footer>
 );
 
-const navigation = {
-  main: [
-    { name: "About", href: "#" },
-    { name: "Video", href: "#" },
-    { name: "Contact us", href: "#" },
-  ],
-};
+// const navigation = {
+//   main: [
+//     { name: "About", href: "#" },
+//     { name: "Video", href: "#" },
+//     { name: "Contact us", href: "#" },
+//   ],
+// };
 
 export default Footer;
