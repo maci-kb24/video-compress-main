@@ -104,7 +104,7 @@ const CompressVideo = () => {
   };
 
   const load = async () => {
-    const baseURL = "https://video-compress-chi.vercel.app/";
+    const baseURL = "https://videocompress.co";
     const ffmpeg = ffmpegRef.current;
     await ffmpeg.load({
       coreURL: await toBlobURL(
