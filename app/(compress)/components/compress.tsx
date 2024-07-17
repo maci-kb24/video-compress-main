@@ -104,18 +104,19 @@ const CompressVideo = () => {
   };
 
   const load = async () => {
+    const baseURL = "https://video-compress-chi.vercel.app/";
     const ffmpeg = ffmpegRef.current;
     await ffmpeg.load({
       coreURL: await toBlobURL(
-        `${process.env.NEXT_PUBLIC_URL}/cors-anywhere/download/ffmpeg-core.js`,
+        `${baseURL}/download/ffmpeg-core.js`,
         "text/javascript"
       ),
       wasmURL: await toBlobURL(
-        `${process.env.NEXT_PUBLIC_URL}/cors-anywhere/download/ffmpeg-core.wasm`,
+        `${baseURL}/download/ffmpeg-core.wasm`,
         "application/wasm"
       ),
       workerURL: await toBlobURL(
-        `${process.env.NEXT_PUBLIC_URL}/cors-anywhere/download/ffmpeg-core.worker.js`,
+        `${baseURL}/download/ffmpeg-core.worker.js`,
         "text/javascript"
       )
     });
