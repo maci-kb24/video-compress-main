@@ -12,12 +12,12 @@ export type FileActions = {
 
 
 export enum VideoFormats {
+    WEBM = "webm",
     MP4 = 'mp4',
     MKV = 'mkv',
     AVI = 'avi',
     MOV = 'mov',
     FLV = 'flv',
-    WEBM = "webm"
 }
 
 export enum QualityType {

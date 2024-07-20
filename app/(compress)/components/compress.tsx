@@ -34,7 +34,7 @@ const CompressVideo = () => {
   >("notStarted");
   const [videoSettings, setVideoSettings] = useState<VideoInputSettings>({
     quality: QualityType.Hight,
-    videoType: VideoFormats.MP4,
+    videoType: VideoFormats.WEBM,
     customEndTime: 0,
     customStartTime: 0,
     removeAudio: false,
