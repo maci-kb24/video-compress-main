@@ -14,7 +14,7 @@ const Hero = () => (
   <div className="pt-10 md:pt-20 px-6 lg:px-0">
     <div className="flex items-center gap-x-1.5 text-2 text-gray-600 border borer-gray-200 rounded-full px-3 py-1.5 mx-auto w-fit mb-8">
       <p className="text-sm sm:text-base">
-        🎉 300+ videos compressed
+        🎉 100+ videos compressed
       </p>
     </div>
     <h1 className="text-center text-4xl font-bold md:text-5xl lg:text-7xl lg lg:font-semibold text-gray-900 text-balance">

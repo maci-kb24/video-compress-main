@@ -1,6 +1,6 @@
 import Hero from "./components/hero";
 import Features from "./components/features";
-import Pricing from "./components/pricing";
+// import Pricing from "./components/pricing";
 import Faq from "./components/faq";
 import TrustedBy from "./components/trustedBy";
 import CTA from "./components/cta";
@@ -19,7 +19,7 @@ const Page = () => (
         <TrustedBy />
         <Features />
       </div>
-      <Pricing />
+      {/* <Pricing /> */}
       {/* <Testimonial /> */}
       <Faq />
       <CTA />

@@ -50,9 +50,9 @@ export const Navbar = () => {
           <Link href="/#features" className="text-sm opacity-50">
             Features
           </Link>
-          <Link href="/#pricing" className="text-sm opacity-50">
+          {/* <Link href="/#pricing" className="text-sm opacity-50">
             Pricing
-          </Link>
+          </Link> */}
           <Link href="/#faq" className="text-sm opacity-50">
             Faq
           </Link>
