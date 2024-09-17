@@ -8,7 +8,6 @@ export default withSentryConfig(
     silent: true,
     org: "prolab",
     project: "videocompress",
-    url: "https://glitchtip.prolab.sh/",
   },
   {
     widenClientFileUpload: true,
