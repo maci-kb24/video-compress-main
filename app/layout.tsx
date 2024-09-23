@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "~/components/Navbar";
 import { Toaster } from "sonner";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -46,11 +45,6 @@ export const metadata: Metadata = {
     images: "/og-image.jpg",
     siteName: "Video Compression Hub",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@ThatsPranav",
-    creator: "@ThatsPranav",
-  },
 };
 
 export default function RootLayout({
@@ -82,17 +76,6 @@ export default function RootLayout({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#616161" />
         <meta name="msapplication-TileColor" content="#616161" />
         <meta name="theme-color" content="#616161" />
-        {/* <script
-          defer
-          data-domain="videocompress.prolab.sh"
-          src="https://plausible.pranavp.xyz/js/script.js"
-        ></script> */}
-        {/* <script
-          defer
-          data-domain="videocompress.prolab.sh"
-          src="https://plausible.pranavp.xyz/js/script.tagged-events.js"
-        ></script> */}
-        {/* <Script src="/chatwoot.js" /> */}
       </head>
       <body
         className={`bg-gray-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] h-full w-full ${inter.className}`}
